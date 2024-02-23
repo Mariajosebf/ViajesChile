@@ -40,3 +40,8 @@ body {
 .icon {
 align-items: center;
 }
+
+#lorem {
+  font-weight: 300;
+  
+}
