@@ -29,7 +29,7 @@
 
 <body>
 
-  <div class="container-fluid p-0">
+  <div id="inicio" class="container-fluid p-0">
     <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top">
       <a class="navbar-brand text-center mx-auto" href="#" >
         <div class="brand-content">
@@ -42,12 +42,17 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Otra Sección</a>
+            <a class="nav-link" href="#quienes">Quienes somos</a>
           </li>
-        
+          <li class="nav-item">
+            <a class="nav-link" href="#destacados">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -83,7 +88,7 @@
   <section id="bg"  class= "container-fluid">
     <br>
     <br>
-  <div class="container"><h1 class="text-center text-white"> ¿QUIÉNES SOMOS?</h1>
+  <div id="quienes" class="container d-none d-md-block"><h1 class="text-center text-white"> ¿QUIÉNES SOMOS?</h1>
     <br>
   <div class="linea" style=" width: 100%; height: 1px; background-color: lightgrey; "></div>
   <br>
@@ -113,7 +118,7 @@
 </div>
 <br>
 <br>
-<div class="container-fluid"><h1 class="text-center text-white">DESTACADOS</h1>
+<div id="destacados" class="container-fluid"><h1 class="text-center text-white">DESTACADOS</h1>
   <br>
 <div class="linea" style=" width: 100%; height: 1px; background-color: lightgrey; "></div>
 <br>
@@ -160,7 +165,7 @@
 </div>
 <br>
 <br>
-<div class="container-fluid"><h1 class="text-center text-white">CONTACTO</h1>
+<div id="contacto" class="container-fluid"><h1 class="text-center text-white">CONTACTO</h1>
   <br>
 <div class="linea" style=" width: 100%; height: 1px; background-color: lightgrey; "></div>
 <br>
@@ -168,7 +173,7 @@
 <div class="container-fluid">
   <div class="row justify-content-center">
       <div class="col-10">
-          <form class="text-white">
+          <form id="contactForm" class="text-white">
               <div class="form-group">
                   <label for="nombre">Nombre:</label>
                   <input type="text" class="form-control" id="nombre">
@@ -197,7 +202,16 @@
 <h1 class="text-white"> Viajes Chile</h1>
   </div>
   <div class="col-6">
-
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+              <a href="https://github.com/Mariajosebf" class="btn btn-link text-white"><i class="fa-brands fa-github fa-3x"></i></a>
+              <a href="https://www.linkedin.com/feed/" class="btn btn-link text-white"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+              <a href="https://twitter.com/?lang=es" class="btn btn-link text-white"><i class="fa-brands fa-square-twitter fa-3x"></i></a>
+              <a href="https://www.facebook.com" class="btn btn-link text-white"><i class="fa-brands fa-square-facebook fa-3x"></i></a>
+          </div>
+      </div>
+  </div>
   </div>
   </div>
 
