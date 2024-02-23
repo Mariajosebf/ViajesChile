@@ -33,3 +33,10 @@ body {
     margin-right: 10px;
     margin-left: 200px;
 }
+#bg {
+  background-color: black;
+}
+
+.icon {
+align-items: center;
+}
